@@ -1,4 +1,4 @@
-# SHOP - Fullstack E-comerce app
+# SHOP - Fullstack E-commerce app
 
 ## Welcome! 👋
 

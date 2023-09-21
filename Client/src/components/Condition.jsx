@@ -1,9 +1,6 @@
-import { useRef } from "react";
-import { useState } from "react";
-import { Button, Image, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+
+import { Row, Col } from "react-bootstrap";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
-import { formatCurrency } from "../utils/formatCurrency";
 import ProductCard from "./ProductCard";
 import useScroll from "../hooks/scroll";
 

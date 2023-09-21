@@ -19,7 +19,6 @@ import {
 } from "../pages";
 import {Root, Error} from "../components";
 import ProtectedRoutes from "./ProtectedRoutes";
-impo
 
 export default function Routespath() {
   const router = createBrowserRouter([

@@ -100,7 +100,7 @@ export default function Shoporders() {
                     <td>
                       <Button
                         variant={order.isDelivered ? "success" : "warning"}
-                        className="rounded-2 fw-bold"
+                        className="rounded-1 fw-bold w-100"
                         onClick={() => handleOrderUpdate(order._id)}
                         disabled={order.isDelivered === true}
                       >
@@ -114,7 +114,7 @@ export default function Shoporders() {
               ))}
             </Table>
           ) : (
-            <h1 className="fs-6">No customer orders yet.</h1>
+            <h1 className="fs-5">No customer orders yet.</h1>
           )}
         </>
       )}
