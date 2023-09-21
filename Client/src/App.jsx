@@ -1,4 +1,4 @@
-import Routespath from "./Routes/Routespath";
+//import Routespath from "./Routes/Routespath";
 import { StateContext } from "./config/store";
 import { Toaster } from "react-hot-toast";
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
